@@ -1,0 +1,3 @@
+sudo docker run --rm --net=host -v /home/niranjandesai05/ML_sessions/:/code  -it py_ml
+jupyter notebook --allow-root --ip=0.0.0.0
+34.83.174.25:8888

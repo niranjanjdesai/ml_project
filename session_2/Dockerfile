@@ -10,4 +10,6 @@ RUN pip3 install numpy scipy pandas matplotlib
 
 RUN pip3 install jupyter
 
+RUN apt install net-tools
+
 CMD ["bash"]
